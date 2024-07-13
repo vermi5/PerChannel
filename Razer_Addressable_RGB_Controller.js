@@ -28,7 +28,7 @@ export function ControllableParameters() {
 
 const vLedNames = [];
 const vLedPositions = [];
-export function SupportsSubdevices(){ return true; }
+export function SubdeviceController(){ return true; }
 export function LacksOnBoardLeds() {return true;}
 const DeviceMaxLedLimit = 240;
 let ChannelRGBOrder = [];
